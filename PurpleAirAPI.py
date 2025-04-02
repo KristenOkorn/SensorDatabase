@@ -20,12 +20,11 @@ import numpy as np
 tstamps = 'yes'
 
 #put the start & end dates/times if so (mm/dd/yyyy HH:MM)
-start_timestamp = '4/2/2025 9:00'
-end_timestamp =  '4/2/2025 10:00'
+start_timestamp = '12/1/2024 00:00'
+end_timestamp =  '2/28/2025 23:59'
 
 #list of sensors to read in
-#sensor_ids = ['189679', '237181', '217605', '217599', '217611', '189683', '189701', '217597', '217627', '189663']
-sensor_ids = ['189679']
+sensor_ids = ['189679', '237181', '217605', '217599', '217611', '189683', '189701', '217597', '217627', '189663']
 
 #get the api key for this project
 API_KEY = '056020E1-0BF4-11F0-81BE-42010A80001F'
